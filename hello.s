@@ -6,6 +6,7 @@ _start:
     LDR R1, =string
     SWI 0
     MOV R7, #1
+    MOV R0, #0
     SWI 0
     .data
 string:
