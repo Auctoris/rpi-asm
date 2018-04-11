@@ -9,4 +9,4 @@ _start:
     SWI 0
     .data
 string:
-    .ascii "Hello Worldn"
+    .ascii "Hello World\n"
